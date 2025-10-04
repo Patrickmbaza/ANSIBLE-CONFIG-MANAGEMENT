@@ -13,10 +13,10 @@
     aws_install_dir: "/opt/aws-cli"
     
   tasks:
-    - name: Update apt package cache
-      apt:
-        update_cache: yes
-        cache_valid_time: 3600
+    # - name: Update apt package cache
+    #   apt:
+    #     update_cache: yes
+    #     cache_valid_time: 3600
 
     - name: Install required system dependencies
       apt:
